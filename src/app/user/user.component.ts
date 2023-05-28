@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class UserComponent {
 componentName="User";
+
+mySum(a:number,b:number):number
+{
+return a+b;
+
+}
 }

@@ -22,4 +22,9 @@ it ("check componet name ",()=>{
   expect(component.componentName).toEqual("User");
 })
 
+it ("check componet sum function ",()=>{
+  expect(component.mySum(10,20)).toBe(30);
+})
+
+
 });
