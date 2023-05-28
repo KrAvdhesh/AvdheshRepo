@@ -1,6 +1,7 @@
 import { TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
+import { Component } from '@angular/core';
 
 describe('AppComponent', () => {
   beforeEach(() => TestBed.configureTestingModule({
@@ -17,7 +18,7 @@ describe('AppComponent', () => {
   it(`should have as title 'track-by'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('track-by');
+    expect(app.title).toEqual('track-by performace avdhesh');
   });
 
   it('should render title', () => {
@@ -26,4 +27,6 @@ describe('AppComponent', () => {
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('.content span')?.textContent).toContain('track-by app is running!');
   });
+
+
 });

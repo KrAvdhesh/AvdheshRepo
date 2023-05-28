@@ -3,7 +3,7 @@
   </h1>>
 <h2>TrackBy example</h2>
   <table border="1">
-    <tr *ngFor="let s of students;let i=index;ngForTrackBy:trackbystudentId">
+  <tr *ngFor="let s of students;let i=index;trackBy:trackbystudentId">
 <td>{{i+1}}</td>
 <td>{{s.StudentId}}</td>
 <td>{{s.Name}}</td>
